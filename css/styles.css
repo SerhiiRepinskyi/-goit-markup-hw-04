@@ -322,7 +322,6 @@ body {
 }
 
 .team-list .title {
-  padding-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -341,11 +340,15 @@ body {
   letter-spacing: 0.03em;
 }
 
+.team-list .tumba {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-soc-list {
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding-bottom: 30px;
 }
 
 .team-soc-item {
@@ -432,15 +435,10 @@ body {
 
 .footer .container {
   display: flex;
-}
-
-.footer-logo-wrap {
-  width: 231px;
+  align-items: baseline;
 }
 
 .footer-soc-wrap {
-  width: 206px;
-  margin-top: 12px;
   margin-left: 70px;
 }
 
